@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: snow;
+    width: 100vw;
+}
+main {
+    width: 70%;
+    background-color: seashell;
+    margin: 5rem auto;
+    padding: 5rem;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+img {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 21.4rem;
+    width: 15rem;
+}
+.main-content {
+    background-color: snow;
+    padding: 12px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 5px;
+    width: 15rem;
+}
+.perfume, h2, .text, .prices {
+    padding: 5px;
+    margin: 5px;
+}
+ .perfume, .text, .old-p {
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.old-p {
+    text-decoration: line-through;
+}
+.new-p {
+    font-size: 2rem;
+    color: forestgreen;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button {
+    border: 1px solid forestgreen;
+    background-color: forestgreen;
+    padding: 10px;
+    margin: 14px;
+    border-radius: 10px;
+    text-align: center;
+    width: 11rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
